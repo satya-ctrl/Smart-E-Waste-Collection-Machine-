@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart E-Waste Collection</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Leaflet.js for OpenStreetMap -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Smart E-Waste Collection</h1>
+        <p>Recycle electronics easily with AI-powered sorting & rewards!</p>
+    </header>
+
+    <section class="map-container">
+        <h2>📍 Find a Collection Machine</h2>
+        <div id="map"></div>
+    </section>
+
+    <section class="sorting">
+        <h2>🤖 AI-Based Sorting</h2>
+        <p>Upload an image of your e-waste, and our AI will categorize it!</p>
+        <input type="file" id="uploadFile" accept="image/*">
+        <button onclick="analyzeWaste()">Analyze</button>
+        <p id="result"></p>
+    </section>
+
+</body>
+</html>
