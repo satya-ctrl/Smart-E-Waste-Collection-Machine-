@@ -1,4 +1,5 @@
-📌 Smart E-Waste Collection
+# 📌 SMART E-WASTE COLLECTION
+
 A web-based platform that helps users locate E-Waste Collection Centers using OpenStreetMap (Leaflet.js) and categorize waste using AI-based sorting.
 
 🔹 Features
@@ -43,16 +44,10 @@ The AI system will analyze and categorize it.
 
 
 🤝 Contributing
-Fork the repo
-
-Create a new branch (feature-name)
-
-Commit your changes
-
-Push and create a PR
+tannukaushik1
 
 📜 License
-This project is open-source under the MIT License.
+This project is open-source.
 
 📞 Contact
 For any issues, reach out via:
